@@ -16,7 +16,7 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5%;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
@@ -25,9 +25,17 @@ main {
     text-align: center;
 }
 
+img {
+    width: 15%;
+}
+
 h1 {
     font-size: 3rem;
     font-weight: 600;
+}
+
+p {
+    color: #6C727F;
 }
 
 .subtitle {
@@ -42,18 +50,24 @@ input {
 input::placeholder {
     font-size: 1rem;
     font-weight: 500;
+    color: #000000;
 }
 
 button {
     padding: 2vh;
-    width: 85%;
+    width: 90%;
     font-size: 1rem;
     font-weight: 600;
+    border-radius: 1vh;
+    border: none;
+    background-color: #284BCE;
+    color: #E5E7EB;
 }
 
 .small-letters {
     font-size: 0.875rem;
     font-weight: 400;
-    text-align: left;
+    margin-right: 18%;
+    color: #394150;
 }
 
