@@ -18,9 +18,9 @@ main {
     flex-direction: column;
     gap: 5%;
     align-items: center;
+    justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20%;
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
@@ -70,4 +70,3 @@ button {
     margin-right: 18%;
     color: #394150;
 }
-
